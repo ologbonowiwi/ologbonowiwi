@@ -5,8 +5,7 @@ My name is Wesley, and I'm currently working as a Node.js consultant for [Warner
 # My Stats
 
 <div>
-  <!-- <img align="left" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=ologbonowiwi&include_all_commits=true&count_private=true&show_icons=true&line_height=24&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40&card_width=450" alt="Wesley's GitHub stats"> -->
-<!--  commenting this while IDK how to fix :/  -->
+<img align="left" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=ologbonowiwi&include_all_commits=true&count_private=true&show_icons=true&line_height=24&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40&card_width=450" alt="Wesley's GitHub stats">
 <img align="right" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ologbonowiwi&layout=compact&langs_count=8&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" alt="Wesley's programming languages">
  </div>
 
