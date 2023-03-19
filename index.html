@@ -88,8 +88,14 @@
       margin-bottom: 10px;
     }
 
-    /* Animation */
+    /* Make .info be on the top of page on mobile devices */
+    @media (max-width: 768px) {
+      .container {
+        justify-content: flex-start;
+      }
+    }
 
+    /* Animation */
     @keyframes fadeInDown {
       from {
         opacity: 0;
@@ -173,7 +179,7 @@
         <object type="image/svg+xml" data="./static/linkedin.svg" width="50px" height="50px"></object>
       </a>
 
-      <a href="mailto:me@wmatos.ninja" target="_blank">
+      <a href="mailto:me@wmatos.ninja" id="gmail" target="_blank">
         <object type="image/svg+xml" data="./static/gmail.svg" width="50px" height="50px"></object>
       </a>
     </div>
