@@ -11,154 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-
-  <style>
-    * {
-      /* text montserrat black with white borders */
-      font-family: 'Montserrat', sans-serif;
-      color: black;
-      text-shadow: 1px 1px 1px gray;
-    }
-
-    body {
-      background-image: url("./static/background.jpg");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    }
-
-    .container {
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .container .info>h1,
-    h2 {
-      margin: 4px;
-    }
-
-    .container h1 {
-      font-size: 50px;
-      font-weight: 700;
-      text-align: center;
-    }
-
-    .container h2 {
-      font-size: 30px;
-      font-weight: 500;
-      text-align: center;
-    }
-
-    .container>.anchors {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      margin-top: 20px;
-    }
-
-    .container>.anchors>a {
-      margin: 10px;
-      width: 50px;
-      height: 50px;
-    }
-
-    .container>.anchors>a>object {
-      transition: all 0.2s ease-in-out;
-      width: 50px;
-      height: 50px;
-    }
-
-    .container>.anchors>a>object:hover {
-      width: 55px;
-      height: 55px;
-    }
-
-    /* Credits needs to be on the bottom of the page */
-    .credits {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      text-align: center;
-      margin-bottom: 10px;
-    }
-
-    /* Make .info be on the top of page on mobile devices */
-    @media (max-width: 768px) {
-      .container {
-        justify-content: flex-start;
-      }
-    }
-
-    /* Animation */
-    @keyframes fadeInDown {
-      from {
-        opacity: 0;
-        transform: translate3d(0, -100%, 0);
-      }
-
-      to {
-        opacity: 1;
-        transform: none;
-      }
-    }
-
-    @keyframes fadeInLeft {
-      from {
-        opacity: 0;
-        transform: translate3d(-100%, 0, 0);
-      }
-
-      to {
-        opacity: 1;
-        transform: none;
-      }
-    }
-
-    @keyframes fadeInRight {
-      from {
-        opacity: 0;
-        transform: translate3d(10%, 0, 0);
-      }
-
-      to {
-        opacity: 1;
-        transform: none;
-      }
-    }
-
-    .container .anchors {
-      animation-duration: 1s;
-      animation-fill-mode: both;
-      animation-timing-function: ease-in-out;
-      animation: fadeInLeft 1s;
-    }
-
-    .container h1,
-    .container h2 {
-      animation-duration: 1s;
-      animation-fill-mode: both;
-      animation-timing-function: ease-in-out;
-      animation: fadeInDown 1s;
-    }
-
-    .container .credits {
-      animation-duration: 1s;
-      animation-fill-mode: both;
-      animation-timing-function: ease-in-out;
-      animation: fadeInRight 1s;
-    }
-
-    /* hide scrollbars */
-    ::-webkit-scrollbar {
-      display: none;
-    }
-  </style>
+  <link rel="stylesheet" href="./static/animations.css">
+  <link rel="stylesheet" href="./static/styles.css">
 </head>
 
 <body>
@@ -184,7 +38,7 @@
       </a>
     </div>
 
-    <footer class="credits">
+    <div class="credits">
       <p>Created by Wesley Matos</p>
 
       <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>

@@ -1,0 +1,116 @@
+
+* {
+  /* text montserrat black with white borders */
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-shadow: 1px 1px 1px gray;
+}
+
+body {
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .info>h1,
+h2 {
+  margin: 4px;
+}
+
+.container h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.container>.anchors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container>.anchors>a {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.container>.anchors>a>object {
+  transition: all 0.2s ease-in-out;
+  width: 50px;
+  height: 50px;
+}
+
+.container>.anchors>a>object:hover {
+  width: 55px;
+  height: 55px;
+}
+
+.container>.credits {
+  text-align: center;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .container {
+    justify-content: center;
+  }
+
+  .credits {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.container .anchors {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation: fadeInLeft 1s;
+}
+
+.container h1,
+.container h2 {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation: fadeInDown 1s;
+}
+
+.container .credits {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation: fadeInRight 1s;
+}
+
+/* hide scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
