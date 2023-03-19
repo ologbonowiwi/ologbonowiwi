@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio</title>
+  <!-- Bootstrap loading -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      /* text montserrat black with white borders */
+      font-family: 'Montserrat', sans-serif;
+      color: black;
+      text-shadow: 1px 1px 1px white;
+    }
+
+    .container {
+      background-image: url("./static/planet.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .container .info>h1,
+    h2 {
+      margin: 4px;
+    }
+
+    .container h1 {
+      font-size: 50px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .container h2 {
+      font-size: 30px;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .container>.anchors {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .container>.anchors>a {
+      margin: 10px;
+    }
+
+    /* Credits needs to be on the bottom of the page */
+    .credits {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="info">
+      <h1>Wesley Matos</h1>
+      <h2>Software Engineer</h2>
+    </div>
+
+    <div class="anchors">
+      <!-- GitHub anchor -->
+      <a href="https://github.com/ologbonowiwi" target="_blank">
+        <img src="./static/github.png" alt="github logo" width="50px" height="50px">
+      </a>
+
+      <!-- LinkedIn anchor -->
+      <a href="https://www.linkedin.com/in/ologbonowiwi/" target="_blank">
+        <img src="./static/linkedin.png" alt="linkedin logo" width="50px" height="50px">
+      </a>
+
+      <a href="mailto:ologbonowiwi520@gmail.com" target="_blank">
+        <img src="./static/gmail.png" alt="gmail logo" width="50px" height="50px">
+      </a>
+    </div>
+
+    <footer class="credits">
+      <p>Created by Wesley Matos</p>
+
+      <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+    </footer>
+  </div>
+</body>
+
+</html>
