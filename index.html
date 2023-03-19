@@ -20,14 +20,6 @@
       text-shadow: 1px 1px 1px gray;
     }
 
-    .container {
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
     body {
       background-image: url("./static/background.jpg");
       background-size: cover;
@@ -36,7 +28,15 @@
       background-attachment: fixed;
     }
 
-    .container .info>h1,
+    .container {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container .info > h1,
     h2 {
       margin: 4px;
     }
@@ -53,7 +53,7 @@
       text-align: center;
     }
 
-    .container>.anchors {
+    .container > .anchors {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -61,8 +61,10 @@
       margin-top: 20px;
     }
 
-    .container>.anchors>a {
+    .container > .anchors > a {
       margin: 10px;
+      width: 50px;
+      height: 50px;
     }
 
     /* Credits needs to be on the bottom of the page */
@@ -87,16 +89,16 @@
     <div class="anchors">
       <!-- GitHub anchor -->
       <a href="https://github.com/ologbonowiwi" target="_blank">
-        <img src="./static/github.png" alt="github logo" width="50px" height="50px">
+        <object type="image/svg+xml" data="./static/github.svg" width="50px" height="50px"></object>
       </a>
 
       <!-- LinkedIn anchor -->
       <a href="https://www.linkedin.com/in/ologbonowiwi/" target="_blank">
-        <img src="./static/linkedin.png" alt="linkedin logo" width="50px" height="50px">
+        <object type="image/svg+xml" data="./static/linkedin.svg" width="50px" height="50px"></object>
       </a>
 
       <a href="mailto:me@wmatos.ninja" target="_blank">
-        <img src="./static/gmail.png" alt="gmail logo" width="50px" height="50px">
+        <object type="image/svg+xml" data="./static/gmail.svg" width="50px" height="50px"></object>
       </a>
     </div>
 
