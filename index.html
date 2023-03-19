@@ -36,7 +36,7 @@
       align-items: center;
     }
 
-    .container .info > h1,
+    .container .info>h1,
     h2 {
       margin: 4px;
     }
@@ -53,7 +53,7 @@
       text-align: center;
     }
 
-    .container > .anchors {
+    .container>.anchors {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -61,10 +61,21 @@
       margin-top: 20px;
     }
 
-    .container > .anchors > a {
+    .container>.anchors>a {
       margin: 10px;
       width: 50px;
       height: 50px;
+    }
+
+    .container>.anchors>a>object {
+      transition: all 0.2s ease-in-out;
+      width: 50px;
+      height: 50px;
+    }
+
+    .container>.anchors>a>object:hover {
+      width: 55px;
+      height: 55px;
     }
 
     /* Credits needs to be on the bottom of the page */
