@@ -33,3 +33,29 @@
     transform: none;
   }
 }
+
+.container .anchors {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation: fadeInLeft 1s;
+}
+
+.container h1,
+.container h2 {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation: fadeInDown 1s;
+}
+
+.container .credits {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation: fadeInRight 1s;
+}
+
+.container>.anchors>a>object {
+  transition: all 0.2s ease-in-out;
+}
