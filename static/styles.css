@@ -114,6 +114,10 @@ h2 {
   animation: fadeInRight 1s;
 }
 
+.credits > p {
+  margin: 2.5px;
+}
+
 /* hide scrollbars */
 ::-webkit-scrollbar {
   display: none;
