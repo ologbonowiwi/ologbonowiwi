@@ -54,6 +54,10 @@ h2 {
   height: 50px;
 }
 
+#github {
+  margin: 10px 5px;
+}
+
 .container>.anchors>a>object {
   transition: all 0.2s ease-in-out;
   width: 50px;
