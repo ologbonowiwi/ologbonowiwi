@@ -1,6 +1,6 @@
 # About me
 
-My name is Wesley, and I'm currently working as a Node.js consultant for [Warner Media](https://www.warnermedia.com/) by [Globant](https://www.globant.com/).
+My name is Wesley, and I'm currently working as a Senior Node.js consultant for [Warner Media](https://www.warnermedia.com/) by [Globant](https://www.globant.com/).
 
 # My Stats
 
