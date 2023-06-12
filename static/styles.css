@@ -63,6 +63,14 @@ h2 {
   height: 50px;
 }
 
+.anchors img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.anchors img:hover {
+  transform: scale(1.2);
+}
+
 .container>.credits {
   text-align: center;
   margin-bottom: 10px;
