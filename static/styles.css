@@ -58,9 +58,9 @@ h2 {
   margin: 10px 5px;
 }
 
-.container>.anchors>a>object:hover {
-  width: 55px;
-  height: 55px;
+.container>.anchors>a>img {
+  width: 50px;
+  height: 50px;
 }
 
 .container>.credits {
