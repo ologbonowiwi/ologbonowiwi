@@ -1,8 +1,8 @@
 * {
   /* text montserrat black with white borders */
   font-family: 'Montserrat', sans-serif;
-  color: #8F8EC5;
-  text-shadow: 1px 1px 2px #8249A9;
+  color: rgb(178, 203, 246);
+  text-shadow: 1px 1px 2px rgb(130, 73, 169);
 }
 
 body {
