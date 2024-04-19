@@ -1,9 +1,8 @@
-
 * {
   /* text montserrat black with white borders */
   font-family: 'Montserrat', sans-serif;
-  color: black;
-  text-shadow: 1px 1px 1px gray;
+  color: #8F8EC5;
+  text-shadow: 1px 1px 2px #8249A9;
 }
 
 body {
@@ -20,7 +19,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  justify-content: space-between;
 }
 
 .container .info>h1,
@@ -94,7 +92,7 @@ h2 {
   }
 }
 
-.credits > p {
+.credits>p {
   margin: 2.5px;
 }
 
