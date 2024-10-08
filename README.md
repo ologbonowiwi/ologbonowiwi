@@ -1,5 +1,10 @@
 # About me
 
+I may not know what I don't know but I am curious enough to explore
+
+I like to find simple solutions to complex problems. and I have six cats 🐈‍⬛; I wonder if you know how these two things are related 😅
+
+<!--
 Working with Node since when google eslint was "the right way of writing javascript" and `import` was only usable via babel.
 
 Experiencing Go and Rust via OSS contributions.
@@ -10,7 +15,7 @@ Experiencing Go and Rust via OSS contributions.
 <img align="left" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=ologbonowiwi&include_all_commits=true&count_private=true&show_icons=true&line_height=24&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40&card_width=450" alt="Wesley's GitHub stats">
 <img align="right" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ologbonowiwi&layout=compact&langs_count=8&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" alt="Wesley's programming languages">
  </div>
-
+-->
 <!-- # About me
 
 Currently helping [Warner Bros. Discovery](https://wbd.com/) deliver content worldwide.
